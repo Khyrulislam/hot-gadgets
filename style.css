@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600&display=swap');
+
+/* nav-bar css */
+
+.nav-link{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* slider section css  */
+
+.bg-cover{
+    position: absolute;
+    top: 290px;
+    left: 40px;
+}
+
+/* Castome carosol inttigater  */
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: rgb(202, 202, 202);
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+    border-radius: 50%;
+}
+.carousel-indicators .active {
+    opacity: 1;
+    background-image: linear-gradient(#EEB609 , #FCC201);
+    width: 40px;
+    height: 10px;
+    border: 0;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+/* carrosul button css */
+
+.buy-now-btn{
+    border: none;
+    background-color: black;
+    color: #fff;
+    font-weight: 450;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.buy-now-btn span{
+    padding: 0 5px;
+    font-size: 18px;
+}
+
+/* smartphone section css */
+
+.phone-catagory{
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    max-width: 22rem;
+}

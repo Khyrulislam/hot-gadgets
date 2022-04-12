@@ -68,3 +68,29 @@
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     max-width: 22rem;
 }
+.smartphone-hadding h6{
+    color: #EEB609;
+}
+
+/* categories section css */
+
+.categories-conten{
+    padding: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 5px;
+}
+
+.catefories-hadding div{
+    width:140px;
+    height: 7px;
+    background-image: linear-gradient( to right, #ed4264,#ffedbc);
+    margin: 15px auto;
+    border-radius: 20px;
+}
+
+.items{
+    margin: 20px 0px;
+    padding: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 5px;
+}
